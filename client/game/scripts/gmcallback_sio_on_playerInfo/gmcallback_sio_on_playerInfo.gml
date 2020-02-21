@@ -1,0 +1,1 @@
+show_debug_message("received playerInfo: " + string(argument0));
