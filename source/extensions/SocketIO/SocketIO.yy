@@ -1,221 +1,78 @@
 {
-    "id": "9f5f87eb-9266-4b29-8d93-5935e52680d5",
-    "modelName": "GMExtension",
-    "mvc": "1.2",
-    "name": "SocketIO",
-    "IncludedResources": [
-        
-    ],
-    "androidPermissions": [
-        
-    ],
-    "androidProps": false,
-    "androidactivityinject": "",
-    "androidclassname": "",
-    "androidinject": "",
-    "androidmanifestinject": "",
-    "androidsourcedir": "",
-    "author": "",
-    "classname": "",
-    "copyToTargets": 32,
-    "date": "2019-23-04 02:02:07",
-    "description": "",
-    "exportToGame": true,
-    "extensionName": "",
-    "files": [
-        {
-            "id": "4f50be56-489f-4dd2-a6cc-20f99898d5da",
-            "modelName": "GMExtensionFile",
-            "mvc": "1.0",
-            "ProxyFiles": [
-                
-            ],
-            "constants": [
-                
-            ],
-            "copyToTargets": 32,
-            "filename": "gms2_socket.io.js",
-            "final": "sio_disconnect",
-            "functions": [
-                {
-                    "id": "9e245a62-bf2d-4f60-be1d-83bbc213f117",
-                    "modelName": "GMExtensionFunction",
-                    "mvc": "1.0",
-                    "argCount": 0,
-                    "args": [
-                        1
-                    ],
-                    "externalName": "sio_connect_by_url",
-                    "help": "sio_connect_by_url(url:string)",
-                    "hidden": false,
-                    "kind": 5,
-                    "name": "sio_connect_by_url",
-                    "returnType": 2
-                },
-                {
-                    "id": "9e4f9d56-c27b-4d4c-96fe-ff47d6c3dad7",
-                    "modelName": "GMExtensionFunction",
-                    "mvc": "1.0",
-                    "argCount": 0,
-                    "args": [
-                        
-                    ],
-                    "externalName": "sio_disconnect",
-                    "help": "sio_disconnect()",
-                    "hidden": false,
-                    "kind": 5,
-                    "name": "sio_disconnect",
-                    "returnType": 2
-                },
-                {
-                    "id": "a3344919-3cc9-43df-9387-e81ef940da4c",
-                    "modelName": "GMExtensionFunction",
-                    "mvc": "1.0",
-                    "argCount": 0,
-                    "args": [
-                        
-                    ],
-                    "externalName": "sio_reconnect",
-                    "help": "sio_reconnect()",
-                    "hidden": false,
-                    "kind": 5,
-                    "name": "sio_reconnect",
-                    "returnType": 2
-                },
-                {
-                    "id": "1f4733aa-d6ab-4d1c-b7d2-d706df75fc03",
-                    "modelName": "GMExtensionFunction",
-                    "mvc": "1.0",
-                    "argCount": 0,
-                    "args": [
-                        1
-                    ],
-                    "externalName": "sio_addEvent",
-                    "help": "sio_addEvent(eventName)",
-                    "hidden": false,
-                    "kind": 5,
-                    "name": "sio_addEvent",
-                    "returnType": 1
-                },
-                {
-                    "id": "3e515d5b-f37d-4429-8eb0-42c638111468",
-                    "modelName": "GMExtensionFunction",
-                    "mvc": "1.0",
-                    "argCount": 0,
-                    "args": [
-                        1,
-                        1
-                    ],
-                    "externalName": "sio_emit",
-                    "help": "sio_emit(eventName, data)",
-                    "hidden": false,
-                    "kind": 5,
-                    "name": "sio_emit",
-                    "returnType": 2
-                },
-                {
-                    "id": "2e533290-b70e-4eee-9a7b-d4aef2e8836a",
-                    "modelName": "GMExtensionFunction",
-                    "mvc": "1.0",
-                    "argCount": 0,
-                    "args": [
-                        
-                    ],
-                    "externalName": "sio_get_connection_status",
-                    "help": "sio_get_connection_status()",
-                    "hidden": false,
-                    "kind": 5,
-                    "name": "sio_get_connection_status",
-                    "returnType": 2
-                },
-                {
-                    "id": "a602957d-052c-4785-8daf-372443eb62d5",
-                    "modelName": "GMExtensionFunction",
-                    "mvc": "1.0",
-                    "argCount": 0,
-                    "args": [
-                        
-                    ],
-                    "externalName": "sio_connect",
-                    "help": "sio_connect()",
-                    "hidden": false,
-                    "kind": 5,
-                    "name": "sio_connect",
-                    "returnType": 1
-                }
-            ],
-            "init": "",
-            "kind": 5,
-            "order": [
-                "a602957d-052c-4785-8daf-372443eb62d5",
-                "9e245a62-bf2d-4f60-be1d-83bbc213f117",
-                "9e4f9d56-c27b-4d4c-96fe-ff47d6c3dad7",
-                "a3344919-3cc9-43df-9387-e81ef940da4c",
-                "1f4733aa-d6ab-4d1c-b7d2-d706df75fc03",
-                "3e515d5b-f37d-4429-8eb0-42c638111468",
-                "2e533290-b70e-4eee-9a7b-d4aef2e8836a"
-            ],
-            "origname": "",
-            "uncompress": false
-        },
-        {
-            "id": "29273d6d-b1dc-466d-9d61-693b59794250",
-            "modelName": "GMExtensionFile",
-            "mvc": "1.0",
-            "ProxyFiles": [
-                
-            ],
-            "constants": [
-                
-            ],
-            "copyToTargets": 32,
-            "filename": "socket.io.js",
-            "final": "",
-            "functions": [
-                
-            ],
-            "init": "",
-            "kind": 5,
-            "order": [
-                
-            ],
-            "origname": "",
-            "uncompress": false
-        }
-    ],
-    "gradleinject": "",
-    "helpfile": "",
-    "installdir": "",
-    "iosProps": false,
-    "iosSystemFrameworkEntries": [
-        
-    ],
-    "iosThirdPartyFrameworkEntries": [
-        
-    ],
-    "iosdelegatename": null,
-    "iosplistinject": "",
-    "license": "",
-    "maccompilerflags": "",
-    "maclinkerflags": "",
-    "macsourcedir": "",
-    "options": null,
-    "optionsFile": "options.json",
-    "packageID": "",
-    "productID": "",
-    "sourcedir": "",
-    "supportedTargets": 32,
-    "tvosProps": false,
-    "tvosSystemFrameworkEntries": [
-        
-    ],
-    "tvosThirdPartyFrameworkEntries": [
-        
-    ],
-    "tvosclassname": "",
-    "tvosdelegatename": null,
-    "tvosmaccompilerflags": "",
-    "tvosmaclinkerflags": "",
-    "tvosplistinject": "",
-    "version": "1.0.2"
+  "optionsFile": "options.json",
+  "options": [],
+  "exportToGame": true,
+  "supportedTargets": 32,
+  "extensionVersion": "1.0.2",
+  "packageId": "",
+  "productId": "",
+  "author": "",
+  "date": "2019-02-04T02:23:07",
+  "license": "",
+  "description": "",
+  "helpfile": "",
+  "iosProps": false,
+  "tvosProps": false,
+  "androidProps": false,
+  "installdir": "",
+  "files": [
+    {"filename":"gms2_socket.io.js","origname":"","init":"","final":"sio_disconnect","kind":5,"uncompress":false,"functions":[
+        {"externalName":"sio_connect_by_url","kind":5,"help":"sio_connect_by_url(url:string)","hidden":false,"returnType":2,"argCount":0,"args":[
+            1,
+          ],"resourceVersion":"1.0","name":"sio_connect_by_url","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"sio_disconnect","kind":5,"help":"sio_disconnect()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"sio_disconnect","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"sio_reconnect","kind":5,"help":"sio_reconnect()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"sio_reconnect","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"sio_addEvent","kind":5,"help":"sio_addEvent(eventName)","hidden":false,"returnType":1,"argCount":0,"args":[
+            1,
+          ],"resourceVersion":"1.0","name":"sio_addEvent","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"sio_emit","kind":5,"help":"sio_emit(eventName, data)","hidden":false,"returnType":2,"argCount":0,"args":[
+            1,
+            1,
+          ],"resourceVersion":"1.0","name":"sio_emit","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"sio_get_connection_status","kind":5,"help":"sio_get_connection_status()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"sio_get_connection_status","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"sio_connect","kind":5,"help":"sio_connect()","hidden":false,"returnType":1,"argCount":0,"args":[],"resourceVersion":"1.0","name":"sio_connect","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
+        {"name":"sio_connect","path":"extensions/SocketIO/SocketIO.yy",},
+        {"name":"sio_connect_by_url","path":"extensions/SocketIO/SocketIO.yy",},
+        {"name":"sio_disconnect","path":"extensions/SocketIO/SocketIO.yy",},
+        {"name":"sio_reconnect","path":"extensions/SocketIO/SocketIO.yy",},
+        {"name":"sio_addEvent","path":"extensions/SocketIO/SocketIO.yy",},
+        {"name":"sio_emit","path":"extensions/SocketIO/SocketIO.yy",},
+        {"name":"sio_get_connection_status","path":"extensions/SocketIO/SocketIO.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"socket.io.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+  ],
+  "classname": "",
+  "tvosclassname": "",
+  "tvosdelegatename": null,
+  "iosdelegatename": null,
+  "androidclassname": "",
+  "sourcedir": "",
+  "androidsourcedir": "",
+  "macsourcedir": "",
+  "maccompilerflags": "",
+  "tvosmaccompilerflags": "",
+  "maclinkerflags": "",
+  "tvosmaclinkerflags": "",
+  "iosplistinject": "",
+  "tvosplistinject": "",
+  "androidinject": "",
+  "androidmanifestinject": "",
+  "androidactivityinject": "",
+  "gradleinject": "",
+  "iosSystemFrameworkEntries": [],
+  "tvosSystemFrameworkEntries": [],
+  "iosThirdPartyFrameworkEntries": [],
+  "tvosThirdPartyFrameworkEntries": [],
+  "IncludedResources": [],
+  "androidPermissions": [],
+  "copyToTargets": 32,
+  "parent": {
+    "name": "Extensions",
+    "path": "folders/Extensions.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SocketIO",
+  "tags": [],
+  "resourceType": "GMExtension",
 }

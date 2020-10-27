@@ -1,8 +1,12 @@
 {
-    "id": "a83e99e5-a12f-418c-a081-f535a65ad1c0",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "gmcallback_sio_on_playerInfo",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Default",
+    "path": "folders/Scripts/SocketIO/Events/Default.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "gmcallback_sio_on_playerInfo",
+  "tags": [],
+  "resourceType": "GMScript",
 }

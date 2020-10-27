@@ -1,8 +1,12 @@
 {
-    "id": "c974e387-a459-4195-abb1-704b52652f5c",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "emit_asyncPlayerInfo",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "SocketIO",
+    "path": "folders/Scripts/SocketIO.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "emit_asyncPlayerInfo",
+  "tags": [],
+  "resourceType": "GMScript",
 }

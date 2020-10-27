@@ -1,8 +1,12 @@
 {
-    "id": "a90952b6-cfba-4022-b201-c39c0368fe11",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "emit_asyncLogins",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "SocketIO",
+    "path": "folders/Scripts/SocketIO.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "emit_asyncLogins",
+  "tags": [],
+  "resourceType": "GMScript",
 }
