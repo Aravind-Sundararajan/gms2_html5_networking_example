@@ -1,9 +1,14 @@
-const PORT = 2323;
-
+const PORT = 3000;
+const fs = require('fs');
 var logins = {};
 var playerInfo = {};
-
-const server = require('http').createServer();
+var options = {
+    cert: fs.readFileSync('/etc/letsencrypt/live/aravindsundararajan.tech/fullchain.pem'),
+    key: fs.readFileSync('/etc/letsencrypt/live/aravindsundararajan.tech/privkey.pem'),
+    requestCert: false,
+    rejectUnauthorized: false
+};
+const server = require('https').createServer(options);
 const io = require('socket.io')(server);
 
 // Listen for incoming connections
