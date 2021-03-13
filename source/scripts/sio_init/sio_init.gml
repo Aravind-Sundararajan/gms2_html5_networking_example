@@ -2,7 +2,7 @@ function sio_init() {
 	gml_pragma("global", "sio_init()");
 
 #region macros
-	#macro URL "http://206.189.183.139:2323"
+	#macro URL "https://206.189.183.139:2323"
 #endregion
 
 #region SocketIO
