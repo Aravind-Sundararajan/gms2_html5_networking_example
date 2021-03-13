@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "SocketIO",
-    "path": "folders/Scripts/SocketIO.yy",
+    "name": "emit",
+    "path": "folders/Scripts/SocketIO/Events/emit.yy",
   },
   "resourceVersion": "1.0",
   "name": "emit_login",

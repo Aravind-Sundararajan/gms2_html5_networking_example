@@ -1,3 +1,0 @@
-/// VERY simple text box....
-Text = "Bringle"
-global.font0 = font_add_sprite(sFont2x, ord(" "), 0, -1);

@@ -1,8 +1,5 @@
-function clientInit(argument0) {
-	emit_login(argument0);
-	with(objPlayer){
-	PlayerName = argument0;
-	}
-
-
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function clientInit(){
+global.clientID = noone;
 }
